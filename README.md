@@ -16,6 +16,15 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 <li><a href="https://facebook.github.io/react/docs/react-api.html" rel="nofollow">React API</a></li>
 </ul>
 
+<h3>Udacity Resources Used</h3>
+<ul>
+<li><a href="https://github.com/udacity/reactnd-project-myreads-starter">Project starter template</a></li>
+<li><a href="https://review.udacity.com/#!/rubrics/918/view" rel="nofollow">Project Rubric</a></li>
+<li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/css.html" rel="nofollow">Udacity CSS Style Guide</a></li>
+<li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/index.html" rel="nofollow">Udacity HTML Style Guide</a></li>
+<li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html" rel="nofollow">Udacity JavaScript Style Guide</a></li>
+</ul>
+
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
