@@ -2,10 +2,9 @@
 
 This project was built using the starter template provided by Udacity.
 
+* to clone: git clone https://github.com/nytegoth1/udacity_book_project.git
 * install all project dependencies with `npm install`
 * start the development server with `npm start`
-
-# To Clone
 
 
 ## Important
