@@ -1,6 +1,6 @@
 # MyReads Project
 
-This project was built using the starter template provided by Udacity.
+This project was built using the starter template provided by Udacity. https://www.udacity.com/favicon.ico
 
 * to clone: `git clone https://github.com/nytegoth1/udacity_book_project.git`
 * install all project dependencies with `npm install`
