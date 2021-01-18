@@ -25,4 +25,6 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 <li><a href="http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html" rel="nofollow">Udacity JavaScript Style Guide</a></li>
 </ul>
 
-## Contributing
+## Other learning materials referenced
+<ul>
+  <li>https://codesandbox.io/s/github/james-priest/reactnd-project-myreads?file=/src/Book.js</li>
