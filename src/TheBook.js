@@ -4,9 +4,6 @@ import ChangeShelf from './ChangeShelf';
 
 const Book = props => {
   const { book, books, changeShelf } = props;
-  
-  //const bookImg = book.imageLinks.thumbnail;
-
   const title = book.title;
 
   return (
