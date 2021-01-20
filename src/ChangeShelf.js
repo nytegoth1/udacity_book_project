@@ -14,10 +14,8 @@ class ChangeShelf extends Component {
   render() {
     const { book, books } = this.props;
 
-    // set current shelf to none as default
     let currentShelf = 'none';
 
-    // if book is in current list, set current shelf to book.shelf
     for (let item of books) {
       if (item.id === book.id) {
         currentShelf = item.shelf;
@@ -29,7 +27,7 @@ class ChangeShelf extends Component {
       <div className="book-shelf-changer">
         <select onChange={this.updateShelf} defaultValue={currentShelf}>
           <option value="none" disabled>
-            Move to...
+          Move to...
           </option>
           <option value="currentlyReading">Currently Reading</option>
           <option value="wantToRead">Want to Read</option>
