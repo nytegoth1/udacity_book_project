@@ -9,8 +9,8 @@ import Search from './Search';
 class BooksApp extends React.Component {
   state = { books: [] };
 
-  componentDidMount() {
-    BooksAPI.getAll().then(books => this.setState({ books }));
+  async componentDidMount() {
+    this.setState({ books: await BooksAPI.getAll() });
   }
 
   changeShelf = (changedBook, shelf) => {
@@ -30,12 +30,9 @@ class BooksApp extends React.Component {
     return (
       <div className="app">
         <Switch>
-          <Route
-            path="/search"
-            render={() => (
-              <Search books={books} changeShelf={this.changeShelf} />
-            )}
-          />
+        <Route path='/search'>
+  <Search books={books} changeShelf={this.changeShelf} />
+</Route>
           <Route
             exact
             path="/"
