@@ -4,17 +4,27 @@ import ChangeShelf from './ChangeShelf';
 
 const Book = props => {
   const { book, books, changeShelf } = props;
-  const bookImg = book.imageLinks.thumbnail;
+  
+  //const bookImg = book.imageLinks.thumbnail;
+
   const title = book.title;
 
   return (
     <li>
       <div className="book">
         <div className="book-top">
-          <div
-            className="book-cover"
-            style={{ width: 150, height: 200, backgroundImage: `url(${bookImg})` }}
-          />
+        <div
+          className="book-cover"
+          style={{
+            width: 150,
+            height: 200,
+            backgroundImage: `url(${
+              book.imageLinks
+                ? book.imageLinks.thumbnail
+                : './no-image.png'
+            })`
+          }}
+        />
 
           <ChangeShelf book={book} books={books} changeShelf={changeShelf} />
         </div>
