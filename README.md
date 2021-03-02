@@ -29,4 +29,5 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## Other learning materials referenced
 <ul>
   <li>https://codesandbox.io/s/github/james-priest/reactnd-project-myreads?file=/src/Book.js</li>
+  <li>![image](https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico) https://codepen.io/Mark_Bowley/pen/xEbuI</li>
 </ul>
